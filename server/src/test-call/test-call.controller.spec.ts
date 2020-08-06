@@ -12,7 +12,7 @@ describe('TestCall Controller', () => {
   const message = 'Test message';
   const to = '+1000001';
   const from = '+1000002';
-  const referer = 'http://www.test-url.com/';
+  const referer = 'https://voice-notification.herokuapp.com/';
 
   beforeAll(async () => {
     const moduleRef: TestingModule = await Test.createTestingModule({
